@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.album-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.album-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.album-card > h2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+

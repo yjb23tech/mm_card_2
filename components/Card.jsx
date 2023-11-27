@@ -5,18 +5,18 @@ import genre_icon from "../images/genre_icon.png"
 
 const Card = () => {
     return (
-        <div>
+        <div className="album-card">
             <img src={album_art} />
             <h2>MBDTF Deluxe</h2>
-            <div>
+            <div className="info-group">
                 <img src={album_icon} />
                 <p>My Beautiful Dark Twisted Fantasy Japanese Deluxe Edition</p>
             </div>
-            <div>
+            <div className="info-group">
                 <img src={artist_icon} />
                 <p>Kanye West</p>
             </div>
-            <div>
+            <div className="info-group">
                 <img src={genre_icon} />
                 <p>Avant Garde Baroque Rap</p>
             </div>
